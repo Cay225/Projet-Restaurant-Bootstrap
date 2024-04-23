@@ -1,0 +1,202 @@
+/* Styles personnalisés pour le Restaurant Imaginaire */
+
+/* Global Styles */
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light background color */
+    color: #343a40; /* Dark text color */
+}
+
+/* Navbar Styling */
+
+.navbar {
+    background-color: #388bde !important; /* Blue color for the navbar */
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffffff; /* White color for navbar brand */
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f8f9fa !important; /* Lighter color on hover */
+}
+
+/* Hero Section Styling */
+
+.hero {
+    background-image: url('flat-lay-mexican-food-composition-with-copyspace.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 0;
+    position: relative;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1; /* Ensure content appears above background */
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    font-size: 1.2rem;
+    padding: 12px 30px;
+    border-radius: 25px;
+    border: none;
+    background-color: #388bde; /* Blue button background color */
+    color: #ffffff;
+    transition: all 0.3s ease; /* Smooth transition on hover */
+}
+
+.hero .btn:hover {
+    transform: scale(1.1); /* Scale button on hover */
+}
+
+/* Menu Section Styling */
+
+#menu {
+    padding: 100px 0;
+}
+
+.menu-item {
+    background-color: #ffffff; /* White background for menu items */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    transition: transform 0.3s ease; /* Smooth transition on hover */
+}
+
+.menu-item img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.menu-item h3 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+}
+
+.menu-item p {
+    font-size: 1.1rem;
+}
+
+.menu-item:hover {
+    transform: translateY(-10px); /* Move up on hover */
+}
+
+/* About Us Section Styling */
+
+#about {
+    padding: 100px 0;
+}
+
+#about .row {
+    align-items: center;
+}
+
+#about img {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    transition: transform 0.3s ease; /* Smooth transition on hover */
+}
+
+#about-content {
+    padding: 0 50px;
+}
+
+#about-content h2 {
+    font-size: 2.5rem;
+}
+
+#about-content p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+#about img:hover {
+    transform: scale(1.05); /* Zoom in on hover */
+}
+
+/* Contact Section Styling */
+
+#contact {
+    padding: 100px 0;
+}
+
+.contact-form {
+    background-color: #ffffff; /* White background for contact form */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.contact-form textarea {
+    resize: none;
+}
+
+.contact-form .btn {
+    width: 100%;
+    padding: 12px;
+    border-radius: 25px;
+    border: none;
+    background-color: #388bde; /* Blue button background color */
+    color: #ffffff;
+    transition: all 0.3s ease; /* Smooth transition on hover */
+}
+
+.contact-form .btn:hover {
+    transform: scale(1.1); /* Scale button on hover */
+}
+
+/* Footer Section Styling */
+
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.footer p {
+    font-size: 1.2rem;
+}
+
+.social-icons a {
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Blue color on hover */
+}
